@@ -1,0 +1,8 @@
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x30A0 -c 1 -t 3:hex -1 /dev/ttyS0	//关机请求
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x30D0 -c 2 -t 3:hex -1 /dev/ttyS0	//温湿度
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x30FC -c 5 -t 3:hex -1 /dev/ttyS0	//超声
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x3308 -c 20 -t 3:hex -1 /dev/ttyS0	//软件版本
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x3400 -c 6 -t 3:hex -1 /dev/ttyS0	//RTC
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x3500 -c 2 -t 3:hex -1 /dev/ttyS0	//外设状态
+
+modpoll -b 115200 -p none -m rtu -a 90 -r 0x4132 /dev/ttyS0	0x02 				//开关机响应

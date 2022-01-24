@@ -1,0 +1,6 @@
+/build/
+/.vscode/
+/Binary/
+output.txt
+*.elf
+flash.jlink

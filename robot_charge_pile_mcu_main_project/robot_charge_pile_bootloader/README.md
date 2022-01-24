@@ -1,0 +1,3 @@
+# robot_charge_pile_bootloader
+
+充电桩bootloader（上电进入ymodem条件未添加版本回滚功能未使能）
